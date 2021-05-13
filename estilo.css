@@ -1,0 +1,119 @@
+body{
+    background-color: rgb(247, 247, 247);    
+    font-style:normal;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+img{
+    width: 300px;
+    height: 200px;
+    border-radius: 100%;
+    position: relative;
+    
+
+
+
+}
+
+
+
+
+.des{
+    background-color: rgb(252, 252, 252);
+    justify-content: center;
+    position: relative;
+    font-size: 10pt;
+    
+
+}
+.des:hover{
+    
+    border: 0.5px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.212);
+    
+}
+
+.des:hover img{
+    
+    width: 310px;
+    height: 210px;
+    border-radius: 100%;
+    position: relative;
+    
+
+
+
+}
+
+h4{
+    position: relative;
+
+
+}
+
+header{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+
+}
+
+header:hover{
+    
+    border: 0.5px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.212);
+    
+        
+}
+.habilidade:hover{
+    border: 0.5px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.212);
+    
+        
+
+
+}
+
+ul{
+
+    list-style:circle;
+
+
+
+}
+
+
+
+
+
+
+h1 , h2 {
+
+    color: green;
+    position: relative;
+    margin-left: 100px;
+
+}
+
+
+.links{
+
+    border: 0.5px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.212);
+    font-size: 15pt;
+        
+
+
+
+}
+
+a:link{
+    background-color: rgba(0, 128, 0, 0.233);
+
+
+
+}
