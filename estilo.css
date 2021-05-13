@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(247, 247, 247);    
+    background-color: rgb(241, 241, 241);    
     font-style:normal;
     font-family: 'Courier New', Courier, monospace;
 
@@ -9,8 +9,8 @@ img{
     width: 300px;
     height: 200px;
     border-radius: 100%;
-    position: relative;
-    
+    margin-left: 70vh;
+    box-shadow: inset 0 0 1em rgb(95, 94, 88), 0 0 1em black;
 
 
 
@@ -20,28 +20,21 @@ img{
 
 
 .des{
-    background-color: rgb(252, 252, 252);
+   
     justify-content: center;
-    position: relative;
-    font-size: 10pt;
-    
-
-}
-.des:hover{
-    
-    border: 0.5px;
-    border-style: solid;
-    border-color: rgba(0, 0, 0, 0.212);
-    
+   font-size: 10pt;
+   position: relative;
+   
 }
 
-.des:hover img{
+
+img:hover{
     
     width: 310px;
     height: 210px;
     border-radius: 100%;
     position: relative;
-    
+    box-shadow: inset 0 0 1em rgb(25, 209, 49), 0 0 1em rgb(78, 167, 38);
 
 
 
@@ -54,36 +47,89 @@ h4{
 }
 
 header{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Impact, 'Haettenschweiler', 'Arial Narrow Bold', sans-serif; 
 
 
 }
 
-header:hover{
-    
-    border: 0.5px;
-    border-style: solid;
-    border-color: rgba(0, 0, 0, 0.212);
-    
-        
-}
-.habilidade:hover{
-    border: 0.5px;
-    border-style: solid;
-    border-color: rgba(0, 0, 0, 0.212);
-    
-        
 
-
-}
 
 ul{
 
     list-style:circle;
+    
+
+
+}
+.info{
+   
+    
+    width: 350px;
+    margin-left: 150px;
+    border: 5px;
+    border-radius: 10%;
+    border-style: solid;
+    border-color: green;
+    background-color: rgb(247, 247, 247); 
+    box-shadow: inset 0 0 1em rgb(95, 94, 88), 0 0 1em black;
+    
 
 
 
 }
+
+.info:hover {
+    width: 350px;
+    margin-left: 150px;
+    border: 5px;
+    border-radius: 10%;
+    border-style: solid;
+    border-color: rgb(226, 195, 16);
+    background-color: rgb(247, 247, 247); 
+    box-shadow: inset 0 0 1em rgb(155, 132, 0), 0 0 1em black;
+    font-style: oblique;
+    font-weight: 900;
+
+
+}
+
+
+
+.container{
+    display:flex;
+    margin-top: 100px;
+
+}
+
+.habilidade{
+
+    width: 350px;
+    margin-left: 250px;
+    border: 5px;
+    border-radius: 10%;
+    border-style: solid;
+    border-color: green;
+    background-color: rgb(247, 247, 247); 
+    box-shadow: inset 0 0 1em rgb(95, 94, 88), 0 0 1em black;
+
+
+}
+
+.habilidade:hover{
+    width: 350px;
+    margin-left: 250px;
+    border: 5px;
+    border-radius: 10%;
+    border-style: solid;
+    border-color: rgb(226, 195, 16);
+    background-color: rgb(247, 247, 247); 
+    box-shadow: inset 0 0 1em rgb(155, 132, 0), 0 0 1em black;
+    font-style: oblique;
+    font-weight: 900;
+
+
+}
+
 
 
 
@@ -94,18 +140,17 @@ h1 , h2 {
 
     color: green;
     position: relative;
-    margin-left: 100px;
+    
 
 }
 
 
 .links{
 
-    border: 0.5px;
-    border-style: solid;
-    border-color: rgba(0, 0, 0, 0.212);
+    
+    margin-top: 100px;
     font-size: 15pt;
-        
+    
 
 
 
@@ -114,6 +159,25 @@ h1 , h2 {
 a:link{
     background-color: rgba(0, 128, 0, 0.233);
 
+
+
+}
+
+.link:hover{
+    background-color: yellow;
+   
+
+}
+
+#texto{
+    width: 500px;
+    margin-left: 60vh;
+
+
+}
+
+#Titulo_habilidade , #Titulo_info{
+    text-align: center;
 
 
 }
