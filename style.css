@@ -1,0 +1,187 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+
+body {
+  background-color: rgb(253, 251, 251);
+  font-size: 15pt;
+  font-family: Times, serif;
+  color: black; }
+
+
+#cabecalho {
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  width: 100%;
+  height: 75px;
+  text-align: center;
+  color: aliceblue;
+  background-color: rgb(33, 36, 33);
+  border: 1px;
+  border-color: aliceblue;
+  border-style: solid;
+  line-height: 25px; }
+
+
+#titulo {
+  padding-top: 20px; }
+
+
+table , td , th {
+  border-collapse: collapse;
+  border: 1px solid rgb(231, 230, 230); }
+
+
+th , td {
+  padding: 15px; }
+
+
+table {
+  position: relative;
+  border-collapse: collapse;
+  width: 50%;
+  left: 50%;
+  transform: translate(-50%);
+  margin-top: 100px;
+  margin-bottom: 100px;
+  background-color: rgba(13, 14, 13, 0.897);
+  color: rgb(252, 251, 249); }
+
+
+.artigos {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  width: 1000px;
+  height: 400px;
+  display: flex;
+  background-color: rgb(100, 99, 99);
+  align-items: center;
+  border: 2px;
+  border-color: black;
+  border-style: double;
+  justify-content: space-around; }
+
+
+.lado-direito {
+  background-color: rgba(13, 14, 13, 0.897);
+  color: aliceblue;
+  text-align: center;
+  width: 300px;
+  height: 350px;
+  margin-top: 20px;
+  margin-right: 20px;
+  border: 5px;
+  border-color: black;
+  border-style: solid; }
+
+
+.lado-esquerdo {
+  background-color: rgba(13, 14, 13, 0.897);
+  color: aliceblue;
+  width: 300px;
+  height: 350px;
+  margin-top: 20px;
+  margin-left: 20px;
+  border: 5px;
+  border-color: black;
+  border-style: solid; }
+
+
+.artigo-direito p , .artigo-esquerdo p , .footer p {
+  text-align: left;
+  padding-left: 2px;
+  padding-top: 70px;
+  font-style: italic; }
+
+
+main {
+  margin-top: 75px; }
+
+
+.container {
+  display: flex;
+  align-items: center;
+  position: relative; }
+
+
+#minha_foto {
+  width: 300px;
+  position: absolute;
+  border-radius: 10%;
+  margin-top: 10px; 
+  right: 10%;}
+
+
+#minha_foto:hover {
+  width: 300px;
+  position: absolute;
+  border-radius: 10%;
+  right: 10%;
+  margin-top: 10px;
+  box-shadow: inset 0 0 1em gold, 0 0 1em rgb(7, 6, 6);
+  cursor: pointer; }
+
+
+.parte-baixa {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center; }
+
+
+.parte-baixa ul {
+  padding-bottom: 20px;
+  font-weight: 900;
+  font-style: initial; }
+
+
+#licoes_a_aprender {
+  position: relative;
+  padding-left: 25px;
+  padding-top: 20px;
+  background-color: rgb(33, 36, 33);
+  color: aliceblue;
+  width: 200px;
+  height: 400px;
+  margin-left: 100px;
+  margin-top: 20px;
+  box-shadow: 10px 5px 5px rgb(26, 25, 25); }
+
+
+#licoes_aprendidas {
+  position: relative;
+  padding-left: 25px;
+  padding-top: 20px;
+  background-color: rgb(33, 36, 33);
+  color: aliceblue;
+  width: 200px;
+  height: 400px;
+  margin-left: 100px;
+  margin-top: 20px;
+  box-shadow: 10px 5px 5px black; }
+
+
+footer {
+  background-color: rgb(33, 36, 33);
+  width: 100%;
+  height: 200px;
+  color: ivory;
+  font-size: 15pt;
+  position: relative; }
+
+
+
+
+
+#hard-skill , #solft-skill {
+  font-style: oblique;
+  font-weight: 600;
+  text-align: right;
+  margin-top: 20px;
+  margin-left: 30px;
+  padding-left: 50px;
+
+
+}
